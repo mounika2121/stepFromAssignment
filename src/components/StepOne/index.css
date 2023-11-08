@@ -1,0 +1,34 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+
+.username-input-field {
+  font-size: 14px;
+  height: 45px;
+  border: 1px solid #d7dfe9;
+  background-color: white;
+  color: #64748b;
+  border-radius: 8px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.next-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 100px;
+}
