@@ -19,7 +19,7 @@ const StepOne = () => {
   }
 
   return (
-    <div className="top-step-2-container">
+    <div className="top-step-1-container">
       <div>
         <h2>Personal Info</h2>
         <p className="text-secondary">

@@ -16,6 +16,7 @@ specifiers:
   react: 17.0.1
   react-bootstrap: 2.9.1
   react-dom: 17.0.1
+  react-router-dom: 6.18.0
   react-scripts: 4.0.3
 
 dependencies:
@@ -27,6 +28,7 @@ dependencies:
   react: 17.0.1
   react-bootstrap: 2.9.1_react-dom@17.0.1+react@17.0.1
   react-dom: 17.0.1_react@17.0.1
+  react-router-dom: 6.18.0_react-dom@17.0.1+react@17.0.1
 
 devDependencies:
   eslint-config-airbnb: 18.2.1
@@ -1874,6 +1876,11 @@ packages:
     dependencies:
       '@swc/helpers': 0.5.3
       react: 17.0.1
+    dev: false
+
+  /@remix-run/router/1.11.0:
+    resolution: {integrity: sha512-BHdhcWgeiudl91HvVa2wxqZjSHbheSgIiDvxrF1VjFzBzpTtuDPkOdOi3Iqvc08kXtFkLjhbS+ML9aM8mJS+wQ==}
+    engines: {node: '>=14.0.0'}
     dev: false
 
   /@restart/hooks/0.4.11_react@17.0.1:
@@ -9708,6 +9715,29 @@ packages:
     resolution: {integrity: sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /react-router-dom/6.18.0_react-dom@17.0.1+react@17.0.1:
+    resolution: {integrity: sha512-Ubrue4+Ercc/BoDkFQfc6og5zRQ4A8YxSO3Knsne+eRbZ+IepAsK249XBH/XaFuOYOYr3L3r13CXTLvYt5JDjw==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.11.0
+      react: 17.0.1
+      react-dom: 17.0.1_react@17.0.1
+      react-router: 6.18.0_react@17.0.1
+    dev: false
+
+  /react-router/6.18.0_react@17.0.1:
+    resolution: {integrity: sha512-vk2y7Dsy8wI02eRRaRmOs9g2o+aE72YCx5q9VasT1N9v+lrdB79tIqrjMfByHiY5+6aYkH2rUa5X839nwWGPDg==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.11.0
+      react: 17.0.1
+    dev: false
 
   /react-scripts/4.0.3_react@17.0.1:
     resolution: {integrity: sha512-S5eO4vjUzUisvkIPB7jVsKtuH2HhWcASREYWHAQ1FP5HyCv3xgn+wpILAEWkmy+A+tTNbSZClhxjT3qz6g4L1A==}

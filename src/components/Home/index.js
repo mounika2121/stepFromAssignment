@@ -1,4 +1,5 @@
-import StepOne from '../StepOne'
+import StepTwo from '../StepTwo'
+// import StepOne from '../StepOne'
 import './index.css'
 
 const Home = () => (
@@ -33,8 +34,23 @@ const Home = () => (
         </div>
       </div>
     </div>
+    <div className="mobile-bg-image">
+      <div>
+        <div className="number">1</div>
+      </div>
+      <div>
+        <div className="number">2</div>
+      </div>
+      <div>
+        <div className="number">3</div>
+      </div>
+      <div>
+        <div className="number">4</div>
+      </div>
+    </div>
     <div>
-      <StepOne />
+      {/* <StepOne /> */}
+      <StepTwo />
     </div>
   </div>
 )

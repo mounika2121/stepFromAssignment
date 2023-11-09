@@ -1,0 +1,75 @@
+.top-step-2-container {
+  padding: 35px;
+}
+
+.plan-cards {
+  width: 150px;
+  height: 200px;
+  border: 1px solid rgb(178, 178, 178);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.plan-bg-container {
+  display: flex;
+}
+
+.switch-container {
+  background-color: rgb(245, 246, 248);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.monthly {
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.yearly {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .plan-cards {
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .plan-bg-container {
+    flex-direction: column;
+  }
+  .free {
+    display: none;
+  }
+  .card-name {
+    margin-left: 10px;
+  }
+}

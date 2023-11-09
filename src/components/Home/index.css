@@ -56,6 +56,24 @@
   color: white;
 }
 
-.top-step-2-container {
-  padding: 35px;
+.mobile-bg-image {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .bg-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+  }
+  .progress-step {
+    display: none;
+  }
+  .mobile-bg-image {
+    display: block;
+    background-image: url('https://res.cloudinary.com/djbs4yqbz/image/upload/v1699532783/Screenshot_426_lel7hw.png');
+    background-size: cover;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+  }
 }
